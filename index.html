@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cutive+Mono&family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Franco Quispe</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            FRANCO
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a class="nav-element active"  valor="inicio">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <div class="line"></div>
+                <li >
+                    <a class="nav-element" id="nav-sobre-mi" valor="sobre-mi">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Sobre Mí</span>
+                    </a>
+                </li>
+                <div class="line"></div>
+                <li>
+                    <a class="nav-element" valor="portafolio">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Portafolio</span>
+                    </a>
+                </li>
+                <div class="line"></div>
+                <li>
+                    <a class="nav-element" valor="contactame">
+                        <i class="fa-sharp fa-solid fa-address-card"></i>
+                        <span>Contáctame</span>
+                    </a>
+                </li>
+                <div class="line"></div>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="main-content inicio show" id="inicio">
+            <div class="d-flex align-items-center">
+                <div class="texto">
+                    <h2 class="text-1">Hola, mi nombre es <span>Franco Quispe</span></h2>
+                    <h2 class="text-2">Yo soy <span class="typed"></span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam illum, ipsum eos quo consectetur omnis corrupti quisquam nam mollitia laborum deleniti cumque doloribus quaerat maxime quia, quis error ratione accusantium animi, dicta repellat recusandae nesciunt? Odio officia quam vel sint illum cumque, earum et minus ipsam repellendus ab neque quasi?</p>
+                    <button class="boton">Más sobre mí</button>
+                </div>
+                <div class="foto">
+                    <img src="./img/perfil.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main-content sobre-mi hidden" id="sobre-mi">
+            <div class="sobre-mi-head d-flex justify-content-between align-items-center row">
+                <div class="col-12 col-md-3">
+                    <h2>
+                        SOBRE MI
+                    </h2>
+                    <div class="line-1"></div>
+                </div>
+                <div class="contacto col-12 col-md-3">
+                    <h5 class="d-flex align-items-center"><i class="fa-solid fa-phone" ></i> <p>+51 927154903</p></h5>
+                    <h5 class="d-flex align-items-center my-2"><i class="fa-solid fa-envelope" ></i> <p>francoquispe1995@gmail.com</p></h5>
+                    <h5 class="d-flex align-items-center"><i class="fa-solid fa-location-dot" ></i> <p> Perú - Arequipa</p></h5>
+                </div>
+            </div>
+            <h2>Yo soy Franco Quispe y <span>Programador Web</span></h2>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam labore consequuntur, molestias optio id? Aliquam rerum repellendus tempore eos qui, rem perferendis ullam beatae quaerat labore adipisci explicabo in iure alias libero excepturi laboriosam officiis repellat repudiandae voluptates. Optio, culpa rem mollitia laborum quam illum officiis inventore error eveniet?</p>
+            <div class="habilidades row">
+                <div class="col-12 col-md-6">
+                    <div class="mh-skills-inner">
+                            <h4>Habilidades Técnicas</h4>
+                            <div class="each-skills">
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">Java (SpringBoot)</div>
+                                            <div class="percentage-num">85%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">NodeJS</div>
+                                            <div class="percentage-num">70%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:70%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">Angular</div>
+                                            <div class="percentage-num">80%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">HTML 5, CSS3(Bootstrap, Tailwind), javaScript(Jquery)</div>
+                                            <div class="percentage-num">90%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:90%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">SQL (Postgres, MySQL, Oracle)</div>
+                                            <div class="percentage-num">80%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">NoSQL (MongoDB)</div>
+                                            <div class="percentage-num">80%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">WordPress</div>
+                                            <div class="percentage-num">70%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style="width:70%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mh-professional-skills text-center">
+                        <h4>Habilidades Personales</h4>
+                        <div class="skill-progress d-flex justify-content-center mb-4">
+                            <div class="skill-item">
+                                <div class="circular-progress">
+                                    <span class="progress-value" valor="80">80%</span>
+                                </div>
+                                <span class="text">Comunicación</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="circular-progress">
+                                    <span class="progress-value" valor="90">90%</span>
+                                </div>
+                                <span class="text">Trabajo en Equipo</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress d-flex justify-content-center">
+                            <div class="skill-item">
+                                <div class="circular-progress">
+                                    <span class="progress-value" valor="60">60%</span>
+                                </div>
+                                <span class="text">Creatividad</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="circular-progress">
+                                    <span class="progress-value" valor="30">30%</span>
+                                </div>
+                                <span class="text">Reciprocidad</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content portafolio hidden"></div>
+        <div class="main-content contactame hidden"></div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./scripts/circle-progress.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

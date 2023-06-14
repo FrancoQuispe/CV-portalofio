@@ -1,0 +1,358 @@
+
+:root{
+    --main-text-color:#2C3457;
+    --secondary-text-color:#ff6150;
+    --navbar-color:#FDFAFF;
+    --main-color:#F3F4FD;
+}
+
+*{
+    transition: all ease 0.3s;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background: var(--main-color);
+
+}
+/* -------------------------Utils----------------------- */
+.active{
+    color: var(--secondary-text-color) !important;
+}
+
+.hidden{
+    display: none !important;
+
+}
+
+.show{
+    display: block !important;
+}
+
+/* ----------------------------nav-bar------------------------- */
+
+nav{
+    height: 100vh;
+    width: 16%;
+    padding-top: 1.2rem;
+    background: var(--navbar-color);
+}
+
+.logo{
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 100%;
+}
+
+.menu ul li{
+    width: 55%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.menu ul li a{
+    cursor: pointer;
+    color: var(--main-text-color)
+}
+
+.line{
+    height: 0.1rem;
+    width: 10rem;
+    background: rgba(44,52,87,0.2);
+    margin: 0.5rem auto 1.5rem auto;
+}
+
+.menu ul li a:hover{
+    color: var(--secondary-text-color);
+}
+
+.menu ul li a i,
+.menu ul li a span{
+    display: inline-block;
+}
+
+.menu ul li a i{
+    margin-right: 0.8rem;
+}
+
+.menu ul li a span{
+    font-weight: bold;
+}
+
+
+/* ----------------------Main----------------------- */
+main{
+    width: 86%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow:scroll;
+    padding: 5rem;
+}
+
+
+/* --------------------------Inicio------------------------------- */
+main .inicio{
+    margin-top: 5%;
+    color: var(--main-text-color);
+}
+
+main .texto{
+    width: 65%;
+    margin-right: 5rem;
+}
+
+main .texto h2{
+    font-weight: bold;
+}
+
+main .text-1{
+    font-size: 3rem;
+}
+
+main .text-1 span{
+    font-size: 4rem;
+    font-family: 'Caveat';
+}
+
+main .text-2{
+    font-size: 2.5rem;
+}
+main .text-2 span{
+    font-size: 3rem;
+    font-family: 'Cutive Mono';
+}
+
+main .texto h2 span{
+    color: var(--secondary-text-color);
+}
+
+main .texto p{
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    margin: 3rem 0;
+    font-family: 'Montserrat';
+}
+
+main .texto button{
+    border: none;
+    padding: 1rem 2rem;
+    background: var(--secondary-text-color);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 100px;
+}
+
+main .texto button:hover{
+    transform: scale(1.1);
+}
+
+main .foto{
+    width: 35%;
+}
+
+main .foto img{
+    width: 100%;
+}
+
+/* -----------------------------SOBRE MI------------------------------ */
+.sobre-mi-head{
+    margin-bottom: 5rem;
+}
+
+.sobre-mi .sobre-mi-head h2{
+    font-weight: bold;
+}
+
+.sobre-mi .sobre-mi-head .line-1{
+    height: 0.3rem;
+    width: 30%;
+    background: var(--secondary-text-color);
+    margin-top: 0.5rem;
+}
+
+.sobre-mi .sobre-mi-head .contacto h5{
+    font-family: 'Montserrat';
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+.sobre-mi .sobre-mi-head .contacto h5 p{
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-mi .sobre-mi-head .contacto i{
+    color: var(--secondary-text-color);
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.sobre-mi h2{
+    font-weight: bold;
+}
+
+.sobre-mi h2 span{
+    color: var(--secondary-text-color);
+    font-family: 'Cutive Mono';
+    font-size: 2.4rem;
+}
+
+.sobre-mi .descripcion{
+    color: var(--main-text-color);
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+.habilidades{
+    margin-top: 4rem;
+}
+
+.habilidades .mh-professional-skill{
+    color: var(--main-text-color);
+}
+
+.habilidades .mh-skills-inner h4{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.mh-professional-skills h4{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.candidatos{
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.candidatos .parcial{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidatos .parcial .info{
+    position: relative;
+}
+
+.candidatos .parcial .info .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+.candidatos .parcial .info .percentage-num{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.candidatos .parcial .progressBar{
+    position: relative;
+    width: 100%;
+    height: 0.38rem;
+    margin: 1.66rem 0 0.11rem;
+    background: #54d2d2;
+}
+
+.candidatos .parcial .percentagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.38rem;
+    border-top-left-radius: 0.55rem;
+    border-bottom-left-radius: 0.55rem;
+    border-bottom-right-radius: 0.55rem;
+    background: #f8aa4b;
+    -webkit-transition: 2s all;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: animationProgress;
+}
+
+.skill-progress .skill-item{
+    width: 40% !important;
+    text-align: center;
+}
+
+.circular-progress{
+    position: relative;
+    height: 6.8rem;
+    width: 6.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #f8aa4b;
+}
+.text{
+    font-weight: bolder;
+    opacity: 0.9;
+}
+
+@keyframes animationProgress{
+    from{
+        width: 0;
+    }
+}
+
+/* __________________________RESPONSIVE_________________________ */
+
+/* // Pantallas grandes */
+@media (max-width: 1200px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
+  /* // Tabletas  */
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  /* // Celulares  */
+  @media (max-width: 576px) {
+    html {
+      font-size: 10px;
+    }
+  }
