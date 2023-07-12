@@ -336,17 +336,25 @@ main .foto img{
 
 /* __________________________RESPONSIVE_________________________ */
 
+/* --------------------------RESPONSIVE---------------------------- */
+
 /* // Pantallas grandes */
 @media (max-width: 1200px) {
     html {
       font-size: 18px;
     }
   }
+/* // Pantallas pequeñas */
+  @media (max-width: 992px) {
+    html {
+      font-size: 14px;
+    }
+  }
   
   /* // Tabletas  */
   @media (max-width: 768px) {
     html {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   
