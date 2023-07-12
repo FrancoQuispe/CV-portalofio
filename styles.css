@@ -334,33 +334,25 @@ main .foto img{
     }
 }
 
-/* __________________________RESPONSIVE_________________________ */
-
 /* --------------------------RESPONSIVE---------------------------- */
 
-/* // Pantallas grandes */
+/* // Pantallas */
 @media (max-width: 1400px) {
-    html {
-      font-size: 18px;
-    }
-  }
-/* // Pantallas pequeñas */
-  @media (max-width: 992px) {
     html {
       font-size: 14px;
     }
   }
   
   /* // Tabletas  */
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     html {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
   
   /* // Celulares  */
   @media (max-width: 576px) {
     html {
-      font-size: 10px;
+      font-size: 8px;
     }
   }
