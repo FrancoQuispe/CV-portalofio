@@ -34,7 +34,7 @@ body{
 
 nav{
     height: 100vh;
-    width: 20%;
+    width: 18%;
     padding-top: 1.2rem;
     background: var(--navbar-color);
 }
@@ -88,7 +88,7 @@ nav{
 
 /* ----------------------Main----------------------- */
 main{
-    width: 80%;
+    width: 82%;
     height: 100vh;
     max-height: 100vh;
     overflow:scroll;
@@ -340,6 +340,19 @@ main .foto img{
 @media (max-width: 1400px) {
     html {
       font-size: 14px;
+    }
+
+    main .inicio{
+        margin-top: 0%;
+        color: var(--main-text-color);
+    }
+
+    main .text-1{
+        font-size: 2.2rem;
+    }
+
+    main .text-2{
+        font-size: 2.2rem;
     }
   }
   
