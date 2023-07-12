@@ -339,7 +339,7 @@ main .foto img{
 /* --------------------------RESPONSIVE---------------------------- */
 
 /* // Pantallas grandes */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     html {
       font-size: 18px;
     }
